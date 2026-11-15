@@ -1,0 +1,12 @@
+{
+  "step": "A-2018",
+  "start": "2018-01-01",
+  "batch": "A",
+  "train_before_reval": {
+    "n": 704,
+    "wins": 322,
+    "losses": 382
+  },
+  "n_names": 94,
+  "passed": true
+}
