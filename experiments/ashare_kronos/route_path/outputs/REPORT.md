@@ -37,3 +37,5 @@
 这不是完整实盘 HIT。股票池是上一轮按 2019–2021 成交额留下的 94 只现存非医药股，有存活偏差。Kronos 训练截止不可审计。胜率升高但均笔不为正，或均笔差的区间含 0，或再验证反向，都不可实施。
 
 复现：`PYTHONPATH=. /tmp/kronos-venv/bin/python -m experiments.ashare_kronos.route_path.run_path`
+
+实验 commit：`b206c32`。
