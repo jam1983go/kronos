@@ -1,0 +1,167 @@
+[2026-11-15T01:15:09Z] stage fetch torch 2.5.1+cpu cpu 4 cuda False
+[2026-11-15T01:15:09Z] fetching eastmoney qfq and raw daily bars
+[2026-11-15T01:16:17Z] quality
+  code  vendor_name industry   board  limit_used  n_qfq  n_raw  n_date_mismatch first_date  last_date  n_bad_ohlc  n_zero_volume  n_long_gap  n_adjustment_like  n_unexplained_jump  n_multiplier_glitch  max_abs_qfq_ret  max_abs_raw_ret  ratio_end  ratio_min  ratio_max  st_in_name
+510300 沪深300ETF华泰柏瑞       宽基     etf         0.1    935    935                0 2023-01-03 2026-11-13           0              0           0                  0                   0                    0         0.099508         0.094081        1.0   0.912889        1.0       False
+159915    创业板ETF易方达       宽基     etf         0.1    935    935                0 2023-01-03 2026-11-13           0              0           0                  0                   0                    0         0.200000         0.200000        1.0   1.000000        1.0       False
+600435         北方导航     军工电子    main         0.1    935    935                0 2023-01-03 2026-11-13           0              0           0                  0                   0                    0         0.100829         0.100292        1.0   0.988095        1.0       False
+600967         内蒙一机     军工机械    main         0.1    935    935                0 2023-01-03 2026-11-13           0              0           0                  0                   0                    0         0.103493         0.100451        1.0   0.909866        1.0       False
+600863         华能蒙电       电力    main         0.1    927    927                0 2023-01-03 2026-11-13           0              0           0                  0                   0                    0         0.105991         0.100877        1.0   0.756923        1.0       False
+300059         东方财富     金融科技 chinext         0.2    935    935                0 2023-01-03 2026-11-13           0              0           0                  1                   0                    0         0.202296         0.200000        1.0   0.819927        1.0       False
+600036         招商银行       银行    main         0.1    935    935                0 2023-01-03 2026-11-13           0              0           0                  0                   0                    0         0.083102         0.074750        1.0   0.758890        1.0       False
+601899         紫金矿业     有色金属    main         0.1    935    935                0 2023-01-03 2026-11-13           0              0           0                  0                   0                    0         0.117716         0.099864        1.0   0.820388        1.0       False
+000333         美的集团       家电    main         0.1    935    935                0 2023-01-03 2026-11-13           0              0           0                  0                   0                    0         0.094107         0.084242        1.0   0.736811        1.0       False
+002415         海康威视     电子安防    main         0.1    935    935                0 2023-01-03 2026-11-13           0              0           0                  0                   0                    0         0.095273         0.087572        1.0   0.877526        1.0       False
+300750         宁德时代       电池 chinext         0.2    935    935                0 2023-01-03 2026-11-13           0              0           0                  1                   0                    0         0.198927         0.418243        1.0   0.498378        1.0       False
+600900         长江电力     水电公用    main         0.1    935    935                0 2023-01-03 2026-11-13           0              0           0                  0                   0                    0         0.049614         0.046312        1.0   0.820614        1.0       False
+[2026-11-15T01:16:17Z] crosscheck
+  code  tencent_rows  sina_rows  tencent_overlap  tencent_max_abs_close_rel  tencent_median_abs_close_rel  tencent_return_corr  tencent_max_abs_return_diff tencent_last_date  tencent_last_close  eastmoney_last_close_qfq  sina_overlap  sina_close_max_abs_rel  sina_volume_median_abs_rel sina_last_date
+510300           640         80              640                   0.000000                      0.000000             1.000000                     0.000000        2026-11-13               4.083                     4.083            80                     0.0                1.958058e-08     2026-11-13
+159915           640         80              640                   0.000000                      0.000000             1.000000                     0.000000        2026-11-13               2.442                     2.442            80                     0.0                1.028654e-08     2026-11-13
+600435           640         80              640                   0.000651                      0.000364             1.000000                     0.000357        2026-11-13              11.410                    11.410            80                     0.0                5.215498e-07     2026-11-13
+600967           640         80              640                   0.000641                      0.000080             1.000000                     0.000358        2026-11-13              12.290                    12.290            80                     0.0                3.309701e-07     2026-11-13
+600863           640         80              640                   0.001353                      0.000000             0.999997                     0.001324        2026-11-13               5.430                     5.430            80                     0.0                2.264193e-07     2026-11-13
+300059           640         80              640                   0.000000                      0.000000             1.000000                     0.000000        2026-11-13              18.290                    18.290            80                     0.0                9.043127e-08     2026-11-13
+600036           640         80              640                   0.000153                      0.000097             1.000000                     0.000183        2026-11-13              42.930                    42.930            80                     0.0                3.472065e-07     2026-11-13
+601899           640         80              640                   0.000000                      0.000000             1.000000                     0.000000        2026-11-13              26.380                    26.380            80                     0.0                1.027483e-07     2026-11-13
+000333           640         80              640                   0.000030                      0.000017             1.000000                     0.000028        2026-11-13              90.550                    90.550            80                     0.0                8.674144e-07     2026-11-13
+002415           640         80              640                   0.000176                      0.000000             1.000000                     0.000152        2026-11-13              34.450                    34.450            80                     0.0                3.510486e-07     2026-11-13
+300750           640         80              640                   0.000079                      0.000006             1.000000                     0.000078        2026-11-13             237.700                   237.700            80                     0.0                7.084679e-07     2026-11-13
+600900           640         80              640                   0.000138                      0.000000             1.000000                     0.000106        2026-11-13              29.910                    29.910            80                     0.0                2.430220e-07     2026-11-13
+[2026-11-15T01:16:17Z] data coverage 2023-01-03 -> 2026-11-13
+[2026-11-15T01:16:25Z] stage smoke torch 2.5.1+cpu cpu 4 cuda False
+[2026-11-15T01:16:25Z] loading tokenizer NeoQuasar/Kronos-Tokenizer-base@0e0117387f39004a9016484a186a908917e22426
+[2026-11-15T01:16:26Z] loading model NeoQuasar/Kronos-small@901c26c1332695a2a8f243eb2f37243a37bea320
+[2026-11-15T01:16:27Z] model parameters 24741376 device cpu cuda False
+[2026-11-15T01:16:27Z] tasks kept 1078 dropped 0
+[2026-11-15T01:16:28Z] smoke 510300 origin 2025-01-02 official_sec 0.30 local_sec 0.27 max_abs_diff 0.00000000
+[2026-11-15T01:16:28Z] official head
+                open      high       low     close      volume        amount
+date                                                                        
+2025-01-03  3.674468  3.748387  3.643558  3.707792  16040224.0  6.354553e+09
+2025-01-06  3.719452  3.795690  3.676940  3.740978  12828885.0  5.017609e+09
+2025-01-07  3.741730  3.779760  3.696622  3.737805  14466107.0  5.687848e+09
+2025-01-08  3.747817  3.810101  3.722087  3.779020  14450171.0  5.760151e+09
+2025-01-09  3.780791  3.823284  3.747115  3.786859  13938953.0  5.541614e+09
+[2026-11-15T01:16:28Z] smoke passed
+[2026-11-15T01:16:36Z] stage forecast torch 2.5.1+cpu cpu 4 cuda False
+[2026-11-15T01:16:36Z] loading tokenizer NeoQuasar/Kronos-Tokenizer-base@0e0117387f39004a9016484a186a908917e22426
+[2026-11-15T01:16:36Z] loading model NeoQuasar/Kronos-small@901c26c1332695a2a8f243eb2f37243a37bea320
+[2026-11-15T01:16:36Z] model parameters 24741376 device cpu cuda False
+[2026-11-15T01:16:36Z] forecast pending 1078 of 1078
+[2026-11-15T01:16:40Z] forecast 12/1078 elapsed 3.9s eta 342.9s
+[2026-11-15T01:16:44Z] forecast 24/1078 elapsed 7.5s eta 327.3s
+[2026-11-15T01:16:47Z] forecast 36/1078 elapsed 11.0s eta 318.2s
+[2026-11-15T01:16:51Z] forecast 48/1078 elapsed 14.5s eta 310.8s
+[2026-11-15T01:16:54Z] forecast 60/1078 elapsed 18.0s eta 305.3s
+[2026-11-15T01:16:58Z] forecast 72/1078 elapsed 21.5s eta 299.9s
+[2026-11-15T01:17:01Z] forecast 84/1078 elapsed 25.0s eta 295.8s
+[2026-11-15T01:17:05Z] forecast 96/1078 elapsed 28.7s eta 293.1s
+[2026-11-15T01:17:08Z] forecast 108/1078 elapsed 32.2s eta 289.2s
+[2026-11-15T01:17:12Z] forecast 120/1078 elapsed 35.8s eta 285.8s
+[2026-11-15T01:17:16Z] forecast 132/1078 elapsed 39.4s eta 282.1s
+[2026-11-15T01:17:19Z] forecast 144/1078 elapsed 42.9s eta 278.1s
+[2026-11-15T01:17:23Z] forecast 156/1078 elapsed 46.5s eta 274.6s
+[2026-11-15T01:17:26Z] forecast 168/1078 elapsed 50.0s eta 270.9s
+[2026-11-15T01:17:30Z] forecast 180/1078 elapsed 53.8s eta 268.3s
+[2026-11-15T01:17:34Z] forecast 192/1078 elapsed 57.8s eta 266.5s
+[2026-11-15T01:17:38Z] forecast 204/1078 elapsed 61.3s eta 262.8s
+[2026-11-15T01:17:41Z] forecast 216/1078 elapsed 64.8s eta 258.8s
+[2026-11-15T01:17:45Z] forecast 228/1078 elapsed 68.3s eta 254.8s
+[2026-11-15T01:17:48Z] forecast 240/1078 elapsed 72.3s eta 252.3s
+[2026-11-15T01:17:52Z] forecast 252/1078 elapsed 76.3s eta 249.9s
+[2026-11-15T01:17:56Z] forecast 264/1078 elapsed 79.9s eta 246.5s
+[2026-11-15T01:18:00Z] forecast 276/1078 elapsed 83.5s eta 242.7s
+[2026-11-15T01:18:03Z] forecast 288/1078 elapsed 87.1s eta 238.8s
+[2026-11-15T01:18:07Z] forecast 300/1078 elapsed 90.6s eta 235.0s
+[2026-11-15T01:18:10Z] forecast 312/1078 elapsed 94.1s eta 231.1s
+[2026-11-15T01:18:14Z] forecast 324/1078 elapsed 97.8s eta 227.6s
+[2026-11-15T01:18:18Z] forecast 336/1078 elapsed 101.4s eta 223.9s
+[2026-11-15T01:18:21Z] forecast 348/1078 elapsed 105.0s eta 220.2s
+[2026-11-15T01:18:25Z] forecast 360/1078 elapsed 108.6s eta 216.5s
+[2026-11-15T01:18:28Z] forecast 372/1078 elapsed 112.0s eta 212.6s
+[2026-11-15T01:18:32Z] forecast 384/1078 elapsed 115.6s eta 208.9s
+[2026-11-15T01:18:35Z] forecast 396/1078 elapsed 119.0s eta 205.0s
+[2026-11-15T01:18:39Z] forecast 408/1078 elapsed 122.7s eta 201.4s
+[2026-11-15T01:18:42Z] forecast 420/1078 elapsed 126.1s eta 197.6s
+[2026-11-15T01:18:46Z] forecast 432/1078 elapsed 129.6s eta 193.8s
+[2026-11-15T01:18:49Z] forecast 444/1078 elapsed 133.0s eta 190.0s
+[2026-11-15T01:18:53Z] forecast 456/1078 elapsed 136.5s eta 186.2s
+[2026-11-15T01:18:56Z] forecast 468/1078 elapsed 139.9s eta 182.4s
+[2026-11-15T01:19:00Z] forecast 480/1078 elapsed 143.4s eta 178.6s
+[2026-11-15T01:19:03Z] forecast 492/1078 elapsed 146.8s eta 174.9s
+[2026-11-15T01:19:06Z] forecast 504/1078 elapsed 150.3s eta 171.1s
+[2026-11-15T01:19:10Z] forecast 516/1078 elapsed 153.7s eta 167.4s
+[2026-11-15T01:19:13Z] forecast 528/1078 elapsed 157.1s eta 163.7s
+[2026-11-15T01:19:17Z] forecast 540/1078 elapsed 160.6s eta 160.0s
+[2026-11-15T01:19:20Z] forecast 552/1078 elapsed 164.1s eta 156.4s
+[2026-11-15T01:19:24Z] forecast 564/1078 elapsed 167.5s eta 152.7s
+[2026-11-15T01:19:27Z] forecast 576/1078 elapsed 171.0s eta 149.0s
+[2026-11-15T01:19:31Z] forecast 588/1078 elapsed 174.4s eta 145.3s
+[2026-11-15T01:19:34Z] forecast 600/1078 elapsed 177.8s eta 141.7s
+[2026-11-15T01:19:37Z] forecast 612/1078 elapsed 181.3s eta 138.0s
+[2026-11-15T01:19:41Z] forecast 624/1078 elapsed 184.7s eta 134.4s
+[2026-11-15T01:19:45Z] forecast 636/1078 elapsed 188.3s eta 130.9s
+[2026-11-15T01:19:48Z] forecast 648/1078 elapsed 191.8s eta 127.3s
+[2026-11-15T01:19:51Z] forecast 660/1078 elapsed 195.3s eta 123.7s
+[2026-11-15T01:19:55Z] forecast 672/1078 elapsed 198.7s eta 120.1s
+[2026-11-15T01:19:58Z] forecast 684/1078 elapsed 202.1s eta 116.4s
+[2026-11-15T01:20:02Z] forecast 696/1078 elapsed 205.6s eta 112.8s
+[2026-11-15T01:20:05Z] forecast 708/1078 elapsed 209.0s eta 109.2s
+[2026-11-15T01:20:09Z] forecast 720/1078 elapsed 212.5s eta 105.6s
+[2026-11-15T01:20:12Z] forecast 732/1078 elapsed 215.9s eta 102.1s
+[2026-11-15T01:20:16Z] forecast 744/1078 elapsed 219.4s eta 98.5s
+[2026-11-15T01:20:19Z] forecast 756/1078 elapsed 222.8s eta 94.9s
+[2026-11-15T01:20:22Z] forecast 768/1078 elapsed 226.3s eta 91.3s
+[2026-11-15T01:20:26Z] forecast 780/1078 elapsed 229.8s eta 87.8s
+[2026-11-15T01:20:30Z] forecast 792/1078 elapsed 233.4s eta 84.3s
+[2026-11-15T01:20:33Z] forecast 804/1078 elapsed 236.9s eta 80.7s
+[2026-11-15T01:20:37Z] forecast 816/1078 elapsed 240.5s eta 77.2s
+[2026-11-15T01:20:40Z] forecast 828/1078 elapsed 244.1s eta 73.7s
+[2026-11-15T01:20:44Z] forecast 840/1078 elapsed 247.7s eta 70.2s
+[2026-11-15T01:20:47Z] forecast 852/1078 elapsed 251.3s eta 66.7s
+[2026-11-15T01:20:51Z] forecast 864/1078 elapsed 254.9s eta 63.1s
+[2026-11-15T01:20:55Z] forecast 876/1078 elapsed 258.4s eta 59.6s
+[2026-11-15T01:20:58Z] forecast 888/1078 elapsed 262.0s eta 56.0s
+[2026-11-15T01:21:02Z] forecast 900/1078 elapsed 265.6s eta 52.5s
+[2026-11-15T01:21:05Z] forecast 912/1078 elapsed 269.3s eta 49.0s
+[2026-11-15T01:21:09Z] forecast 924/1078 elapsed 272.8s eta 45.5s
+[2026-11-15T01:21:13Z] forecast 936/1078 elapsed 276.4s eta 41.9s
+[2026-11-15T01:21:16Z] forecast 948/1078 elapsed 280.0s eta 38.4s
+[2026-11-15T01:21:20Z] forecast 960/1078 elapsed 283.5s eta 34.8s
+[2026-11-15T01:21:23Z] forecast 972/1078 elapsed 287.0s eta 31.3s
+[2026-11-15T01:21:27Z] forecast 984/1078 elapsed 290.6s eta 27.8s
+[2026-11-15T01:21:30Z] forecast 996/1078 elapsed 294.3s eta 24.2s
+[2026-11-15T01:21:34Z] forecast 1008/1078 elapsed 298.0s eta 20.7s
+[2026-11-15T01:21:38Z] forecast 1020/1078 elapsed 301.6s eta 17.2s
+[2026-11-15T01:21:41Z] forecast 1032/1078 elapsed 305.2s eta 13.6s
+[2026-11-15T01:21:45Z] forecast 1044/1078 elapsed 308.8s eta 10.1s
+[2026-11-15T01:21:49Z] forecast 1056/1078 elapsed 312.4s eta 6.5s
+[2026-11-15T01:21:52Z] forecast 1068/1078 elapsed 315.9s eta 3.0s
+[2026-11-15T01:21:55Z] forecast 1078/1078 elapsed 318.8s eta 0.0s
+[2026-11-15T01:21:55Z] wrote /workspace/experiments/ashare_kronos/outputs/predictions.csv rows 1078
+[2026-11-15T01:22:05Z] stage evaluate torch 2.5.1+cpu cpu 4 cuda False
+[2026-11-15T01:22:06Z] Traceback (most recent call last):
+  File "/workspace/experiments/ashare_kronos/run_experiment.py", line 342, in main
+    summary = stage_evaluate(time.perf_counter() - started, n_params)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/experiments/ashare_kronos/run_experiment.py", line 314, in stage_evaluate
+    summary = run_evaluation(predictions, loaded, OUT_DIR, meta)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/experiments/ashare_kronos/evaluate.py", line 452, in run_evaluation
+    trade_frames.append(simulate_trades(frame, loaded, horizon, gap_filter))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/experiments/ashare_kronos/evaluate.py", line 184, in simulate_trades
+    raw = loaded[row.code]["raw"]
+          ~~~~~~^^^^^^^^^^
+KeyError: 510300
+
+[2026-11-15T01:22:20Z] stage evaluate torch 2.5.1+cpu cpu 4 cuda False
+[2026-11-15T01:22:22Z] conclusion 未证实优势 subset 未证实优势
+[2026-11-15T01:22:22Z] scores [{"horizon": 1, "n_predictions": 1078, "n_symbols": 12, "n_origin_dates": 173, "n_flat": 42, "n_up": 471, "n_down": 565, "flat_share": 0.03896103896103896, "actual_up_share_of_moved": 0.4546332046332046, "kronos_up_share": 0.4897959183673469, "kronos_flat_pred": 60, "dir_acc_kronos": 0.4691119691119691, "dir_acc_momentum": 0.49613899613899615, "dir_acc_majority": 0.47393822393822393, "mae_kronos": 0.8069669111239445, "mae_flat": 0.7179025974025975, "mae_momentum": 1.0830367330716164, "mae_ratio_kronos": 1.1240618351898788, "mae_ratio_momentum": 1.5086123618859855, "mae_skill_vs_flat": -0.12406183518987879, "paired_win_rate_vs_flat": 0.40538033395176254, "paired_tie_rate_vs_flat": 0.0, "cluster_t_mae": -1.7399332095591313, "cluster_mean_mae_improvement": -0.08890722124861512, "naive_t_mae": -3.06430305974196, "mean_pred_ret": 0.00014310740018028313, "mean_actual_ret": -0.0004072627993494036, "mean_mom_ret": -7.318620384789797e-05, "rank_ic_mean": 0.03619978831863063, "rank_ic_std": 0.3809849627031347, "rank_ic_t": 0.901403938023888, "rank_ic_n_dates": 90, "rank_ic_pooled": 0.03257274972513635, "mean_pred_std_ret": 0.010981362034913435, "uncertainty_vs_abs_err_spearman": 0.7249781511188462, "input_overlap_share": 0.9583333333333334, "forward_windows_overlap_within_symbol": false}, {"horizon": 3, "n_predictions": 1078, "n_symbols": 12, "n_origin_dates": 173, "n_flat": 28, "n_up": 528, "n_down": 522, "flat_share": 0.025974025974025976, "actual_up_share_of_moved": 0.5028571428571429, "kronos_up_share": 0.4907235621521336, "kronos_flat_pred": 45, "dir_acc_kronos": 0.4847619047619048, "dir_acc_momentum": 0.5, "dir_acc_majority": 0.48095238095238096, "mae_kronos": 1.3722779527612874, "mae_flat": 1.2528719851576995, "mae_momentum": 1.8020686984001903, "mae_ratio_kronos": 1.0953058006070415, "mae_ratio_momentum": 1.4383502223280722, "mae_skill_vs_flat": -0.09530580060704152, "paired_win_rate_vs_flat": 0.4267161410018553, "paired_tie_rate_vs_flat": 0.0, "cluster_t_mae": -1.8778939639380408, "cluster_mean_mae_improvement": -0.1191813344849481, "naive_t_mae": -2.926467210047247, "mean_pred_ret": -0.000546679095250427, "mean_actual_ret": 0.0021398792924065767, "mean_mom_ret": 0.002772608118659808, "rank_ic_mean": 0.06120435120435121, "rank_ic_std": 0.3409596979524676, "rank_ic_t": 1.7029445445977707, "rank_ic_n_dates": 90, "rank_ic_pooled": 0.05211781670302336, "mean_pred_std_ret": 0.01887605088660496, "uncertainty_vs_abs_err_spearman": 0.7079588149254799, "input_overlap_share": 0.9583333333333334, "forward_windows_overlap_within_symbol": false}, {"horizon": 5, "n_predictions": 1078, "n_symbols": 12, "n_origin_dates": 173, "n_flat": 15, "n_up": 563, "n_down": 500, "flat_share": 0.013914656771799629, "actual_up_share_of_moved": 0.5296331138287864, "kronos_up_share": 0.47680890538033394, "kronos_flat_pred": 35, "dir_acc_kronos": 0.49764816556914393, "dir_acc_momentum": 0.48824082784571965, "dir_acc_majority": 0.47130761994355597, "mae_kronos": 1.8710409658127687, "mae_flat": 1.6562244897959186, "mae_momentum": 2.3004482935616846, "mae_ratio_kronos": 1.12970251154982, "mae_ratio_momentum": 1.3889713065679568, "mae_skill_vs_flat": -0.12970251154982004, "paired_win_rate_vs_flat": 0.4230055658627087, "paired_tie_rate_vs_flat": 0.0, "cluster_t_mae": -1.4572394019851582, "cluster_mean_mae_improvement": -0.21441517964284462, "naive_t_mae": -3.311915882737551, "mean_pred_ret": -0.0025056506312128805, "mean_actual_ret": 0.003503193306832724, "mean_mom_ret": 0.003245266826022173, "rank_ic_mean": -0.0013131313131313261, "rank_ic_std": 0.3486049245662099, "rank_ic_t": -0.035735173462193195, "rank_ic_n_dates": 90, "rank_ic_pooled": 0.02802797154097794, "mean_pred_std_ret": 0.023906642311637298, "uncertainty_vs_abs_err_spearman": 0.6891983502524355, "input_overlap_share": 0.9583333333333334, "forward_windows_overlap_within_symbol": false}]
+[2026-11-15T01:23:46Z] stage evaluate torch 2.5.1+cpu cpu 4 cuda False
+[2026-11-15T01:23:48Z] conclusion 未证实优势 subset 未证实优势
+[2026-11-15T01:23:48Z] scores [{"horizon": 1, "n_predictions": 1078, "n_symbols": 12, "n_origin_dates": 173, "n_flat": 42, "n_up": 471, "n_down": 565, "flat_share": 0.03896103896103896, "actual_up_share_of_moved": 0.4546332046332046, "kronos_up_share": 0.4897959183673469, "kronos_flat_pred": 60, "dir_acc_kronos": 0.4691119691119691, "dir_acc_momentum": 0.49613899613899615, "dir_acc_majority": 0.47393822393822393, "mae_kronos": 0.8069669111239445, "mae_flat": 0.7179025974025975, "mae_momentum": 1.0830367330716164, "mae_ratio_kronos": 1.1240618351898788, "mae_ratio_momentum": 1.5086123618859855, "mae_ret_ratio_kronos": 1.1325214814025248, "mae_ret_ratio_momentum": 1.5276832364999908, "mae_skill_vs_flat": -0.12406183518987879, "paired_win_rate_vs_flat": 0.40538033395176254, "paired_tie_rate_vs_flat": 0.0, "cluster_t_mae": -1.7399332095591313, "cluster_mean_mae_improvement": -0.08890722124861512, "naive_t_mae": -3.06430305974196, "mean_pred_ret": 0.00014310740018028313, "mean_actual_ret": -0.0004072627993494036, "mean_mom_ret": -7.318620384789797e-05, "rank_ic_mean": 0.03619978831863063, "rank_ic_std": 0.3809849627031347, "rank_ic_t": 0.901403938023888, "rank_ic_n_dates": 90, "rank_ic_pooled": 0.03257274972513635, "mean_pred_std_ret": 0.010981362034913435, "uncertainty_vs_abs_err_spearman": 0.7249781511188462, "uncertainty_vs_abs_ret_err_spearman": 0.3255267450560361, "input_overlap_share": 0.9583333333333334, "forward_windows_overlap_within_symbol": false}, {"horizon": 3, "n_predictions": 1078, "n_symbols": 12, "n_origin_dates": 173, "n_flat": 28, "n_up": 528, "n_down": 522, "flat_share": 0.025974025974025976, "actual_up_share_of_moved": 0.5028571428571429, "kronos_up_share": 0.4907235621521336, "kronos_flat_pred": 45, "dir_acc_kronos": 0.4847619047619048, "dir_acc_momentum": 0.5, "dir_acc_majority": 0.48095238095238096, "mae_kronos": 1.3722779527612874, "mae_flat": 1.2528719851576995, "mae_momentum": 1.8020686984001903, "mae_ratio_kronos": 1.0953058006070415, "mae_ratio_momentum": 1.4383502223280722, "mae_ret_ratio_kronos": 1.0896003992648986, "mae_ret_ratio_momentum": 1.5552888184654214, "mae_skill_vs_flat": -0.09530580060704152, "paired_win_rate_vs_flat": 0.4267161410018553, "paired_tie_rate_vs_flat": 0.0, "cluster_t_mae": -1.8778939639380408, "cluster_mean_mae_improvement": -0.1191813344849481, "naive_t_mae": -2.926467210047247, "mean_pred_ret": -0.000546679095250427, "mean_actual_ret": 0.0021398792924065767, "mean_mom_ret": 0.002772608118659808, "rank_ic_mean": 0.06120435120435121, "rank_ic_std": 0.3409596979524676, "rank_ic_t": 1.7029445445977707, "rank_ic_n_dates": 90, "rank_ic_pooled": 0.05211781670302336, "mean_pred_std_ret": 0.01887605088660496, "uncertainty_vs_abs_err_spearman": 0.7079588149254799, "uncertainty_vs_abs_ret_err_spearman": 0.2316320215581407, "input_overlap_share": 0.9583333333333334, "forward_windows_overlap_within_symbol": false}, {"horizon": 5, "n_predictions": 1078, "n_symbols": 12, "n_origin_dates": 173, "n_flat": 15, "n_up": 563, "n_down": 500, "flat_share": 0.013914656771799629, "actual_up_share_of_moved": 0.5296331138287864, "kronos_up_share": 0.47680890538033394, "kronos_flat_pred": 35, "dir_acc_kronos": 0.49764816556914393, "dir_acc_momentum": 0.48824082784571965, "dir_acc_majority": 0.47130761994355597, "mae_kronos": 1.8710409658127687, "mae_flat": 1.6562244897959186, "mae_momentum": 2.3004482935616846, "mae_ratio_kronos": 1.12970251154982, "mae_ratio_momentum": 1.3889713065679568, "mae_ret_ratio_kronos": 1.1218105106906942, "mae_ret_ratio_momentum": 1.4521091426673496, "mae_skill_vs_flat": -0.12970251154982004, "paired_win_rate_vs_flat": 0.4230055658627087, "paired_tie_rate_vs_flat": 0.0, "cluster_t_mae": -1.4572394019851582, "cluster_mean_mae_improvement": -0.21441517964284462, "naive_t_mae": -3.311915882737551, "mean_pred_ret": -0.0025056506312128805, "mean_actual_ret": 0.003503193306832724, "mean_mom_ret": 0.003245266826022173, "rank_ic_mean": -0.0013131313131313261, "rank_ic_std": 0.3486049245662099, "rank_ic_t": -0.035735173462193195, "rank_ic_n_dates": 90, "rank_ic_pooled": 0.02802797154097794, "mean_pred_std_ret": 0.023906642311637298, "uncertainty_vs_abs_err_spearman": 0.6891983502524355, "uncertainty_vs_abs_ret_err_spearman": 0.28395806534065904, "input_overlap_share": 0.9583333333333334, "forward_windows_overlap_within_symbol": false}]
+[2026-11-15T01:24:13Z] stage evaluate torch 2.5.1+cpu cpu 4 cuda False
+[2026-11-15T01:24:15Z] conclusion 未证实优势 subset 未证实优势
+[2026-11-15T01:24:15Z] scores [{"horizon": 1, "n_predictions": 1078, "n_symbols": 12, "n_origin_dates": 173, "n_flat": 42, "n_up": 471, "n_down": 565, "flat_share": 0.03896103896103896, "actual_up_share_of_moved": 0.4546332046332046, "kronos_up_share": 0.4897959183673469, "kronos_flat_pred": 60, "dir_acc_kronos": 0.4691119691119691, "dir_acc_momentum": 0.49613899613899615, "dir_acc_majority": 0.47393822393822393, "mae_kronos": 0.8069669111239445, "mae_flat": 0.7179025974025975, "mae_momentum": 1.0830367330716164, "mae_ratio_kronos": 1.1240618351898788, "mae_ratio_momentum": 1.5086123618859855, "mae_ret_ratio_kronos": 1.1325214814025248, "mae_ret_ratio_momentum": 1.5276832364999908, "mae_skill_vs_flat": -0.12406183518987879, "paired_win_rate_vs_flat": 0.40538033395176254, "paired_tie_rate_vs_flat": 0.0, "cluster_t_mae": -1.7399332095591313, "cluster_mean_mae_improvement": -0.08890722124861512, "naive_t_mae": -3.06430305974196, "mean_pred_ret": 0.00014310740018028313, "mean_actual_ret": -0.0004072627993494036, "mean_mom_ret": -7.318620384789797e-05, "rank_ic_mean": 0.03619978831863063, "rank_ic_std": 0.3809849627031347, "rank_ic_t": 0.901403938023888, "rank_ic_n_dates": 90, "rank_ic_pooled": 0.03257274972513635, "mean_pred_std_ret": 0.010981362034913435, "uncertainty_vs_abs_err_spearman": 0.7249781511188462, "uncertainty_vs_abs_ret_err_spearman": 0.3255267450560361, "input_overlap_share": 0.9583333333333334, "forward_windows_overlap_within_symbol": false}, {"horizon": 3, "n_predictions": 1078, "n_symbols": 12, "n_origin_dates": 173, "n_flat": 28, "n_up": 528, "n_down": 522, "flat_share": 0.025974025974025976, "actual_up_share_of_moved": 0.5028571428571429, "kronos_up_share": 0.4907235621521336, "kronos_flat_pred": 45, "dir_acc_kronos": 0.4847619047619048, "dir_acc_momentum": 0.5, "dir_acc_majority": 0.48095238095238096, "mae_kronos": 1.3722779527612874, "mae_flat": 1.2528719851576995, "mae_momentum": 1.8020686984001903, "mae_ratio_kronos": 1.0953058006070415, "mae_ratio_momentum": 1.4383502223280722, "mae_ret_ratio_kronos": 1.0896003992648986, "mae_ret_ratio_momentum": 1.5552888184654214, "mae_skill_vs_flat": -0.09530580060704152, "paired_win_rate_vs_flat": 0.4267161410018553, "paired_tie_rate_vs_flat": 0.0, "cluster_t_mae": -1.8778939639380408, "cluster_mean_mae_improvement": -0.1191813344849481, "naive_t_mae": -2.926467210047247, "mean_pred_ret": -0.000546679095250427, "mean_actual_ret": 0.0021398792924065767, "mean_mom_ret": 0.002772608118659808, "rank_ic_mean": 0.06120435120435121, "rank_ic_std": 0.3409596979524676, "rank_ic_t": 1.7029445445977707, "rank_ic_n_dates": 90, "rank_ic_pooled": 0.05211781670302336, "mean_pred_std_ret": 0.01887605088660496, "uncertainty_vs_abs_err_spearman": 0.7079588149254799, "uncertainty_vs_abs_ret_err_spearman": 0.2316320215581407, "input_overlap_share": 0.9583333333333334, "forward_windows_overlap_within_symbol": false}, {"horizon": 5, "n_predictions": 1078, "n_symbols": 12, "n_origin_dates": 173, "n_flat": 15, "n_up": 563, "n_down": 500, "flat_share": 0.013914656771799629, "actual_up_share_of_moved": 0.5296331138287864, "kronos_up_share": 0.47680890538033394, "kronos_flat_pred": 35, "dir_acc_kronos": 0.49764816556914393, "dir_acc_momentum": 0.48824082784571965, "dir_acc_majority": 0.47130761994355597, "mae_kronos": 1.8710409658127687, "mae_flat": 1.6562244897959186, "mae_momentum": 2.3004482935616846, "mae_ratio_kronos": 1.12970251154982, "mae_ratio_momentum": 1.3889713065679568, "mae_ret_ratio_kronos": 1.1218105106906942, "mae_ret_ratio_momentum": 1.4521091426673496, "mae_skill_vs_flat": -0.12970251154982004, "paired_win_rate_vs_flat": 0.4230055658627087, "paired_tie_rate_vs_flat": 0.0, "cluster_t_mae": -1.4572394019851582, "cluster_mean_mae_improvement": -0.21441517964284462, "naive_t_mae": -3.311915882737551, "mean_pred_ret": -0.0025056506312128805, "mean_actual_ret": 0.003503193306832724, "mean_mom_ret": 0.003245266826022173, "rank_ic_mean": -0.0013131313131313261, "rank_ic_std": 0.3486049245662099, "rank_ic_t": -0.035735173462193195, "rank_ic_n_dates": 90, "rank_ic_pooled": 0.02802797154097794, "mean_pred_std_ret": 0.023906642311637298, "uncertainty_vs_abs_err_spearman": 0.6891983502524355, "uncertainty_vs_abs_ret_err_spearman": 0.28395806534065904, "input_overlap_share": 0.9583333333333334, "forward_windows_overlap_within_symbol": false}]
