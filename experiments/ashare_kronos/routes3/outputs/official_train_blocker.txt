@@ -1,0 +1,3 @@
+官方训练依赖 comet_ml 不可用：No module named 'comet_ml'
+官方训练依赖 qlib 不可用：No module named 'qlib'
+cuda=False；finetune/train_predictor.py 需要 torchrun、DDP 和 QlibDataset，本机不启动该全量脚本。

@@ -1,0 +1,10 @@
+removed,removed_winners,removed_winner_pnl,removed_losers,id,window
+0,0,0.0,0,hit_kronos_pos,fit
+0,0,0.0,0,hit_kronos_cost,fit
+0,0,0.0,0,hit_finetune_pos,fit
+0,0,0.0,0,hit_kronos_pos,check
+0,0,0.0,0,hit_kronos_cost,check
+0,0,0.0,0,hit_finetune_pos,check
+16,7,59670.51047117046,9,hit_kronos_pos,reval
+16,7,59670.51047117046,9,hit_kronos_cost,reval
+16,7,59670.51047117046,9,hit_finetune_pos,reval
