@@ -1,0 +1,140 @@
+[2026-11-15 10:11:01+0800] stage smoke configs 15 weights_not_updated
+[2026-11-15 10:11:01+0800] copied 510300_qfq.csv from the previous snapshot
+[2026-11-15 10:11:01+0800] copied 510300_raw.csv from the previous snapshot
+[2026-11-15 10:11:01+0800] copied 159915_qfq.csv from the previous snapshot
+[2026-11-15 10:11:01+0800] copied 159915_raw.csv from the previous snapshot
+[2026-11-15 10:11:05+0800] fetched 510500 中证500ETF南方 2023-01-03 2026-11-13
+[2026-11-15 10:11:08+0800] crosscheck 510500 {'code': '510500', 'tencent_rows': 640, 'sina_rows': 80, 'tencent_overlap': 640, 'tencent_max_abs_close_rel': 0.0, 'tencent_median_abs_close_rel': 0.0, 'tencent_return_corr': 1.0, 'tencent_max_abs_return_diff': 0.0, 'tencent_last_date': '2026-11-13', 'tencent_last_close': 6.495, 'eastmoney_last_close_qfq': 6.495, 'sina_overlap': 80, 'sina_close_max_abs_rel': 0.0, 'sina_volume_median_abs_rel': 5.050557404282616e-08, 'sina_last_date': '2026-11-13'}
+[2026-11-15 10:11:10+0800] fetched 510050 上证50ETF华夏 2023-01-03 2026-11-13
+[2026-11-15 10:11:13+0800] crosscheck 510050 {'code': '510050', 'tencent_rows': 640, 'sina_rows': 80, 'tencent_overlap': 640, 'tencent_max_abs_close_rel': 0.0, 'tencent_median_abs_close_rel': 0.0, 'tencent_return_corr': 1.0, 'tencent_max_abs_return_diff': 0.0, 'tencent_last_date': '2026-11-13', 'tencent_last_close': 2.889, 'eastmoney_last_close_qfq': 2.889, 'sina_overlap': 80, 'sina_close_max_abs_rel': 0.0, 'sina_volume_median_abs_rel': 2.245773725162475e-08, 'sina_last_date': '2026-11-13'}
+[2026-11-15 10:11:13+0800] liquidity
+  code  median_amount  pass   n  last_date
+510300   2.960433e+09  True 359 2026-11-13
+159915   1.323371e+09  True 359 2026-11-13
+510500   1.455596e+09  True 359 2026-11-13
+510050   1.810453e+09  True 359 2026-11-13
+[2026-11-15 10:11:14+0800] window        executable
+confirmation  True           28
+outside       False           4
+              True          140
+purged        False          20
+revalidation  True          420
+selection     True           80
+[2026-11-15 10:11:16+0800] loaded frozen weights params 24741376
+[2026-11-15 10:11:17+0800] smoke 510300 2024-07-02 mean 3.300215 official 3.300215 diff 0.00000000
+[2026-11-15 10:11:17+0800] done elapsed 16.3s
+[2026-11-15 10:11:26+0800] stage infer configs 15 weights_not_updated
+[2026-11-15 10:11:26+0800] window        executable
+confirmation  True           28
+outside       False           4
+              True          140
+purged        False          20
+revalidation  True          420
+selection     True           80
+[2026-11-15 10:11:26+0800] loaded frozen weights params 24741376
+[2026-11-15 10:11:26+0800] infer lb60 s5 pending 528
+[2026-11-15 10:11:30+0800] infer lb60 s5 25/528
+[2026-11-15 10:11:33+0800] infer lb60 s5 50/528
+[2026-11-15 10:11:37+0800] infer lb60 s5 75/528
+[2026-11-15 10:11:40+0800] infer lb60 s5 100/528
+[2026-11-15 10:11:42+0800] infer lb60 s5 125/528
+[2026-11-15 10:11:45+0800] infer lb60 s5 150/528
+[2026-11-15 10:11:48+0800] infer lb60 s5 175/528
+[2026-11-15 10:11:51+0800] infer lb60 s5 200/528
+[2026-11-15 10:11:54+0800] infer lb60 s5 225/528
+[2026-11-15 10:11:58+0800] infer lb60 s5 250/528
+[2026-11-15 10:12:01+0800] infer lb60 s5 275/528
+[2026-11-15 10:12:04+0800] infer lb60 s5 300/528
+[2026-11-15 10:12:07+0800] infer lb60 s5 325/528
+[2026-11-15 10:12:10+0800] infer lb60 s5 350/528
+[2026-11-15 10:12:12+0800] infer lb60 s5 375/528
+[2026-11-15 10:12:15+0800] infer lb60 s5 400/528
+[2026-11-15 10:12:18+0800] infer lb60 s5 425/528
+[2026-11-15 10:12:21+0800] infer lb60 s5 450/528
+[2026-11-15 10:12:24+0800] infer lb60 s5 475/528
+[2026-11-15 10:12:28+0800] infer lb60 s5 500/528
+[2026-11-15 10:12:31+0800] infer lb60 s5 525/528
+[2026-11-15 10:12:31+0800] infer lb60 s5 528/528
+[2026-11-15 10:12:31+0800] infer lb120 s5 pending 528
+[2026-11-15 10:12:38+0800] infer lb120 s5 25/528
+[2026-11-15 10:12:44+0800] infer lb120 s5 50/528
+[2026-11-15 10:12:50+0800] infer lb120 s5 75/528
+[2026-11-15 10:12:55+0800] infer lb120 s5 100/528
+[2026-11-15 10:13:00+0800] infer lb120 s5 125/528
+[2026-11-15 10:13:06+0800] infer lb120 s5 150/528
+[2026-11-15 10:13:12+0800] infer lb120 s5 175/528
+[2026-11-15 10:13:17+0800] infer lb120 s5 200/528
+[2026-11-15 10:13:23+0800] infer lb120 s5 225/528
+[2026-11-15 10:13:28+0800] infer lb120 s5 250/528
+[2026-11-15 10:13:34+0800] infer lb120 s5 275/528
+[2026-11-15 10:13:40+0800] infer lb120 s5 300/528
+[2026-11-15 10:13:45+0800] infer lb120 s5 325/528
+[2026-11-15 10:13:51+0800] infer lb120 s5 350/528
+[2026-11-15 10:13:56+0800] infer lb120 s5 375/528
+[2026-11-15 10:14:02+0800] infer lb120 s5 400/528
+[2026-11-15 10:14:08+0800] infer lb120 s5 425/528
+[2026-11-15 10:14:13+0800] infer lb120 s5 450/528
+[2026-11-15 10:14:18+0800] infer lb120 s5 475/528
+[2026-11-15 10:14:24+0800] infer lb120 s5 500/528
+[2026-11-15 10:14:29+0800] infer lb120 s5 525/528
+[2026-11-15 10:14:30+0800] infer lb120 s5 528/528
+[2026-11-15 10:14:30+0800] infer lb120 s20 pending 528
+[2026-11-15 10:14:50+0800] infer lb120 s20 25/528
+[2026-11-15 10:15:11+0800] infer lb120 s20 50/528
+[2026-11-15 10:15:33+0800] infer lb120 s20 75/528
+[2026-11-15 10:15:54+0800] infer lb120 s20 100/528
+[2026-11-15 10:16:12+0800] infer lb120 s20 125/528
+[2026-11-15 10:16:31+0800] infer lb120 s20 150/528
+[2026-11-15 10:16:48+0800] infer lb120 s20 175/528
+[2026-11-15 10:17:07+0800] infer lb120 s20 200/528
+[2026-11-15 10:17:26+0800] infer lb120 s20 225/528
+[2026-11-15 10:17:43+0800] infer lb120 s20 250/528
+[2026-11-15 10:18:00+0800] infer lb120 s20 275/528
+[2026-11-15 10:18:18+0800] infer lb120 s20 300/528
+[2026-11-15 10:18:35+0800] infer lb120 s20 325/528
+[2026-11-15 10:18:51+0800] infer lb120 s20 350/528
+[2026-11-15 10:19:08+0800] infer lb120 s20 375/528
+[2026-11-15 10:19:24+0800] infer lb120 s20 400/528
+[2026-11-15 10:19:41+0800] infer lb120 s20 425/528
+[2026-11-15 10:19:58+0800] infer lb120 s20 450/528
+[2026-11-15 10:20:15+0800] infer lb120 s20 475/528
+[2026-11-15 10:20:32+0800] infer lb120 s20 500/528
+[2026-11-15 10:20:50+0800] infer lb120 s20 525/528
+[2026-11-15 10:20:52+0800] infer lb120 s20 528/528
+[2026-11-15 10:20:52+0800] infer lb240 s5 pending 528
+[2026-11-15 10:21:01+0800] infer lb240 s5 25/528
+[2026-11-15 10:21:09+0800] infer lb240 s5 50/528
+[2026-11-15 10:21:17+0800] infer lb240 s5 75/528
+[2026-11-15 10:21:26+0800] infer lb240 s5 100/528
+[2026-11-15 10:21:34+0800] infer lb240 s5 125/528
+[2026-11-15 10:21:42+0800] infer lb240 s5 150/528
+[2026-11-15 10:21:51+0800] infer lb240 s5 175/528
+[2026-11-15 10:21:59+0800] infer lb240 s5 200/528
+[2026-11-15 10:22:08+0800] infer lb240 s5 225/528
+[2026-11-15 10:22:16+0800] infer lb240 s5 250/528
+[2026-11-15 10:22:25+0800] infer lb240 s5 275/528
+[2026-11-15 10:22:33+0800] infer lb240 s5 300/528
+[2026-11-15 10:22:41+0800] infer lb240 s5 325/528
+[2026-11-15 10:22:49+0800] infer lb240 s5 350/528
+[2026-11-15 10:22:58+0800] infer lb240 s5 375/528
+[2026-11-15 10:23:06+0800] infer lb240 s5 400/528
+[2026-11-15 10:23:14+0800] infer lb240 s5 425/528
+[2026-11-15 10:23:22+0800] infer lb240 s5 450/528
+[2026-11-15 10:23:30+0800] infer lb240 s5 475/528
+[2026-11-15 10:23:38+0800] infer lb240 s5 500/528
+[2026-11-15 10:23:46+0800] infer lb240 s5 525/528
+[2026-11-15 10:23:47+0800] infer lb240 s5 528/528
+[2026-11-15 10:23:47+0800] done elapsed 741.5s
+[2026-11-15 10:24:51+0800] stage select configs 15 weights_not_updated
+[2026-11-15 10:24:52+0800] LOCKED {"selected_id": "kronos_lb60_s5_mean_gt_cost", "selection_reason": "highest_eligible_win_rate", "material_gain": false, "selection_gain": 0.042508710801393734, "raw_win_rate": 0.4146341463414634, "locked_at": "2026-11-15 10:24:52+0800", "config_ids": ["no_trade", "momentum", "momentum_gt_cost", "majority_120", "kronos_lb120_s5_mean_gt0", "kronos_lb120_s5_mean_gt_cost", "kronos_lb120_s5_median_gt0", "kronos_lb120_s5_median_gt_cost", "kronos_lb120_s5_agree4_mean_gt_cost", "kronos_lb120_s5_mean_median_agree_gt_cost", "kronos_lb120_s20_agree15_median_gt_cost", "kronos_lb60_s5_mean_gt_cost", "kronos_lb60_s5_agree4_mean_gt_cost", "kronos_lb240_s5_mean_gt_cost", "kronos_lb240_s5_agree4_mean_gt_cost"], "seed": 20261115}
+[2026-11-15 10:24:52+0800] done elapsed 1.2s
+[2026-11-15 10:24:58+0800] stage report configs 15 weights_not_updated
+[2026-11-15 10:24:58+0800] selection already locked: kronos_lb60_s5_mean_gt_cost
+[2026-11-15 10:25:06+0800] 锁定观察的最高资格候选是 `kronos_lb60_s5_mean_gt_cost`，选择窗只高 4.3 个百分点，没有达到 5 个百分点的实质提升。探索性再验证里，该方案胜率 45.6%，原模型 48.2%，差 -2.7 个百分点；区块区间 -14.7% 至 9.5%。再验证的胜率差区间包含 0 或没有足够成交，不能把选择窗的最高分写成可靠优势。再验证的盈亏比或 profit factor 没有守住资格线，胜率不能单独算作改进。费用和滑点加倍后，该方案胜率 43.5%，平均净收益 -0.4%，profit factor 0.66。
+[2026-11-15 10:25:06+0800] finetune_gate False
+[2026-11-15 10:25:06+0800] done elapsed 7.7s
+[2026-11-15 10:25:48+0800] stage report configs 15 weights_not_updated
+[2026-11-15 10:25:48+0800] selection already locked: kronos_lb60_s5_mean_gt_cost
+[2026-11-15 10:25:55+0800] 锁定观察的最高资格候选是 `kronos_lb60_s5_mean_gt_cost`，选择窗只高 4.3 个百分点，没有达到 5 个百分点的实质提升。探索性再验证里，该方案胜率 45.6%，原模型 48.2%，差 -2.7 个百分点；区块区间 -14.7% 至 9.5%。再验证的胜率差区间包含 0 或没有足够成交，不能把选择窗的最高分写成可靠优势。再验证的盈亏比或 profit factor 没有守住资格线，胜率不能单独算作改进。费用和滑点加倍后，该方案胜率 43.5%，平均净收益 -0.4%，profit factor 0.66。
+[2026-11-15 10:25:55+0800] finetune_gate False
+[2026-11-15 10:25:55+0800] done elapsed 7.6s

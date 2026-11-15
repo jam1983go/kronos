@@ -1,0 +1,26 @@
+{
+  "selected_id": "kronos_lb60_s5_mean_gt_cost",
+  "selection_reason": "highest_eligible_win_rate",
+  "material_gain": false,
+  "selection_gain": 0.042508710801393734,
+  "raw_win_rate": 0.4146341463414634,
+  "locked_at": "2026-11-15 10:24:52+0800",
+  "config_ids": [
+    "no_trade",
+    "momentum",
+    "momentum_gt_cost",
+    "majority_120",
+    "kronos_lb120_s5_mean_gt0",
+    "kronos_lb120_s5_mean_gt_cost",
+    "kronos_lb120_s5_median_gt0",
+    "kronos_lb120_s5_median_gt_cost",
+    "kronos_lb120_s5_agree4_mean_gt_cost",
+    "kronos_lb120_s5_mean_median_agree_gt_cost",
+    "kronos_lb120_s20_agree15_median_gt_cost",
+    "kronos_lb60_s5_mean_gt_cost",
+    "kronos_lb60_s5_agree4_mean_gt_cost",
+    "kronos_lb240_s5_mean_gt_cost",
+    "kronos_lb240_s5_agree4_mean_gt_cost"
+  ],
+  "seed": 20261115
+}
